@@ -1,0 +1,101 @@
+/* ============================================================
+   Custom styles for Talha Yaseen's portfolio
+   Loaded AFTER Bootstrap 5 so these rules personalise the theme.
+   Bootstrap handles the layout/components; this file adds the
+   personal colours, fonts, and small polish touches.
+============================================================ */
+
+/* ---- Fonts & base ---- */
+body {
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  /* push content below the fixed navbar */
+  padding-top: 56px;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: "Poppins", system-ui, sans-serif;
+}
+
+/* ---- Smooth scrolling for the nav links ---- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* offset anchored sections so the fixed navbar doesn't cover the heading */
+section[id],
+header[id] {
+  scroll-margin-top: 70px;
+}
+
+/* ---- Hero section ---- */
+.hero {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0ea5e9 100%);
+  padding: 6rem 0 5rem;
+}
+
+.eyebrow {
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.hero-photo {
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ---- Section titles with an underline accent ---- */
+.section-title {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #0ea5e9;
+  border-radius: 2px;
+  margin: 0.6rem auto 0;
+}
+
+/* center the underline when the title sits in a text-center block */
+.text-center .section-title::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- Cards: subtle lift on hover ---- */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* keep project preview images a consistent height */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+/* ---- Progress bars a little taller for readability ---- */
+.progress {
+  height: 1.1rem;
+}
+
+/* ---- Navbar link hover ---- */
+.navbar-nav .nav-link:hover {
+  color: #0ea5e9;
+}
+
+/* ---- Small-screen tweaks ---- */
+@media (max-width: 991.98px) {
+  .hero {
+    padding: 5rem 0 3.5rem;
+  }
+}
