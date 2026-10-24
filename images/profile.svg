@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Profile illustration of Talha Yaseen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="72" fill="#ffffff" opacity="0.96"/>
+  <path d="M72 372 C72 286 140 252 200 252 C260 252 328 286 328 372 Z" fill="#ffffff" opacity="0.96"/>
+  <circle cx="200" cy="160" r="72" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="10"/>
+</svg>

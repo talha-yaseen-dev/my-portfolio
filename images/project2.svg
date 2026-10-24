@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Task manager project thumbnail">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g2)"/>
+  <g>
+    <rect x="130" y="90" width="340" height="56" rx="12" fill="#ffffff" opacity="0.95"/>
+    <rect x="130" y="172" width="340" height="56" rx="12" fill="#ffffff" opacity="0.95"/>
+    <rect x="130" y="254" width="340" height="56" rx="12" fill="#ffffff" opacity="0.95"/>
+  </g>
+  <g fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M155 118 l12 12 l22 -24"/>
+    <path d="M155 200 l12 12 l22 -24"/>
+  </g>
+  <circle cx="172" cy="282" r="14" fill="none" stroke="#94a3b8" stroke-width="5"/>
+  <g fill="#0f766e" font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    <text x="210" y="125">Design wireframes</text>
+    <text x="210" y="207">Build components</text>
+    <text x="210" y="289">Write test cases</text>
+  </g>
+</svg>
