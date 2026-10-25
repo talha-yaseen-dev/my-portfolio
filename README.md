@@ -3,7 +3,7 @@
 A professional, responsive personal portfolio website built with **HTML5** and **Bootstrap 5**.
 This project was created for **Assignment 2: Personal Portfolio Website Using HTML, Bootstrap, GitHub, and Vercel**.
 
-🔗 **Live site:** _add your Vercel URL here after deploying_
+🔗 **Live site:** https://my-portfolio-xi-tawny-pobit9nfc0.vercel.app
 💻 **Repository:** https://github.com/talha-yaseen-dev/my-portfolio
 
 ---
